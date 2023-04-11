@@ -62,6 +62,15 @@ description: "Gives My All command info",
         return message.channel.send({embeds: [embed]});
       }
 
+      const row = new ActionRowBuilder()
+			.addComponents(
+                
+            new ButtonBuilder()
+    .setLabel(`${client.user.username}`)
+    .setStyle("Link")
+    .setURL(`https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands`)
+   )
+
       const embed = new EmbedBuilder()
         .setTitle("Command: " + args[0])
       .addFields([
@@ -114,7 +123,7 @@ name: "Description:",
         )*/
      
         .setColor(client.config.embedColor);
-      return message.channel.send({embeds:[embed]});
+      return message.channel.send({embeds:[embed], components: [row]});
     }
 
   }
