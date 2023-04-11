@@ -46,6 +46,15 @@ description: "Gives My All command info",
         .setFooter({text: `Type ${prefix}help <command name> for more information  on a command!`})
         
         .setColor(client.config.embedColor);
+	          const row = new ActionRowBuilder()
+            .addComponents(
+                
+            new ButtonBuilder()
+    .setLabel(`Invite Me`)
+    .setStyle("Link")
+    .setURL(`https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands`)
+   );
+	    
       return message.channel.send({ embeds: [embed] });
     } else {
       const command =
@@ -61,16 +70,7 @@ description: "Gives My All command info",
           .setColor(client.config.embedColor);
         return message.channel.send({embeds: [embed]});
       }
-
-      const row = new ActionRowBuilder()
-			.addComponents(
-                
-            new ButtonBuilder()
-    .setLabel(`Invite Me`)
-    .setStyle("Link")
-    .setURL(`https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands`)
-   );
-
+	    
       const embed = new EmbedBuilder()
         .setTitle("Command: " + args[0])
       .addFields([
