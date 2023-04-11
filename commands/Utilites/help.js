@@ -39,7 +39,7 @@ description: "Gives My All command info",
       });
 
       const embed = new EmbedBuilder()
-        .setAuthor({name:"Muzox Commands", iconURL: client.user.displayAvatarURL()})
+        .setAuthor({name:"Wave Commands", iconURL: client.user.displayAvatarURL()})
         .setDescription(`• My Prefix For This Server is ${prefix}`)
         .addFields(categories)
 
