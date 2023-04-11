@@ -1,30 +1,61 @@
+
+
 {
-  "prefix":"-",
+
+  "prefix":"+",
+
   "db": "mongodb+srv://crex:crex@cluster0.u6zgok2.mongodb.net/crex",
+
   "logs":"920657546988093501",
+
   "topgg": "",
-    "embedColor": "#ffcb00",
+
+    "embedColor": "#fd9ebd",
+
     "links":{
+
 "bg": "https://media.discordapp.net/attachments/984799594787524668/990842585239130182/20220627_100911.jpg"
+
     },
+
  
-  "owner": ["803839409870602240","803839409870602240" , "803839409870602240", "803839409870602240","803839409870602240","803839409870602240","803839409870602240"],
+
+  "owner": ["847770840266833961"],
+
   "Webhooks": {
-    "bot_error": "https://discord.com/api/webhooks/1057528925858844752/lJNa1cStiAgPCugPcYD4naL6UVWUv3uJ3V_QOtXsPg9J_DhtsrHznzxCAEgSwMJLEG16",
-    "db_error": "https://discord.com/api/webhooks/1057528925858844752/lJNa1cStiAgPCugPcYD4naL6UVWUv3uJ3V_QOtXsPg9J_DhtsrHznzxCAEgSwMJLEG16",
-    "webhook_error": "https://discord.com/api/webhooks/1057528925858844752/lJNa1cStiAgPCugPcYD4naL6UVWUv3uJ3V_QOtXsPg9J_DhtsrHznzxCAEgSwMJLEG16",
-    "server_add": "https://discord.com/api/webhooks/1057528925858844752/lJNa1cStiAgPCugPcYD4naL6UVWUv3uJ3V_QOtXsPg9J_DhtsrHznzxCAEgSwMJLEG16",
-    "server_remove": "https://discord.com/api/webhooks/1057528925858844752/lJNa1cStiAgPCugPcYD4naL6UVWUv3uJ3V_QOtXsPg9J_DhtsrHznzxCAEgSwMJLEG16"
+
+    "bot_error": "https://discord.com/api/webhooks/1095334887801761792/o7NKYC2YJQ-ur-WqyrGbG4WXp8JDCmFWtzfabKSGgzlW1MbQzdq0eillh9noDvabg9ui",
+
+    "db_error": "https://discord.com/api/webhooks/1095334887801761792/o7NKYC2YJQ-ur-WqyrGbG4WXp8JDCmFWtzfabKSGgzlW1MbQzdq0eillh9noDvabg9ui",
+
+    "webhook_error": "https://discord.com/api/webhooks/1095334887801761792/o7NKYC2YJQ-ur-WqyrGbG4WXp8JDCmFWtzfabKSGgzlW1MbQzdq0eillh9noDvabg9ui",
+
+    "server_add": "https://discord.com/api/webhooks/1095334887801761792/o7NKYC2YJQ-ur-WqyrGbG4WXp8JDCmFWtzfabKSGgzlW1MbQzdq0eillh9noDvabg9ui",
+
+    "server_remove": "https://discord.com/api/webhooks/1095334887801761792/o7NKYC2YJQ-ur-WqyrGbG4WXp8JDCmFWtzfabKSGgzlW1MbQzdq0eillh9noDvabg9ui"
+
   },
+
   "nodes":[
+
     
+
   {
+
       "name": "Nova Lavalink",
+
       "host": "eu-lavalink.lexnet.cc",
+
       "port": "443",
+
       "password": "lexn3tl@val!nk",
+
       "secure": true
+
   }
+
   ]
+
 }
+
   
