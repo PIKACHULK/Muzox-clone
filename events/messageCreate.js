@@ -54,8 +54,7 @@ const ch = message.guild.channels.cache.get(p1.voiceChannel);
     new ButtonBuilder()
     .setLabel("Vote Me")
     .setStyle("Link")
-    .setURL("https://discordbotlist.com/bots/wave-8862/upvote
-")
+    .setURL("https://discordbotlist.com/bots/wave-8862/upvote")
 			);
       const embed = new EmbedBuilder()
         .setColor(client.config.embedColor)
