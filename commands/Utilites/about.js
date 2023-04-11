@@ -45,13 +45,13 @@ module.exports = {
     const embed = new EmbedBuilder()
 
       .setColor(`${client.config.embedColor}`)
-      .setAuthor({ name: `Potato <3#1474`, iconURL: "https://media.discordapp.net/attachments/1011309439510380578/1058717780964290620/IMG_20221005_132627.jpg", url: "https://discord.gg/yRWSH98pAs" })
+     // .setAuthor({ name: `Potato <3#1474`, iconURL: "https://media.discordapp.net/attachments/1011309439510380578/1058717780964290620/IMG_20221005_132627.jpg", url: "https://discord.gg/yRWSH98pAs" })
       .setDescription(`**[Bot Invite Link](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands)**`)
       .addFields([
-        {
-          name: "ㅤ",
-          value: "NOTE: This Stats are Only of **Cluster 0**"
-        },
+       // {
+      //    name: "ㅤ",
+        //  value: "NOTE: This Stats are Only of **Cluster 0**"
+      //  },
         {
           name: `__Information__`,
           value: `\`\`\`ml
@@ -65,9 +65,8 @@ Shards      : ${message.guild.shard.id}/1
 Api         : ${client.ws.ping}\`\`\``
         },
         {
-          name: "Owner",
-          value: "**[Potato <3#1474](https://discord.com/users/803839409870602240)**, Special Thanks to all Supporters."
-        }
+          name: "Developer",
+          value: "[OBITO](https://discord.com/users/847770840266833961) , [DAKSHH](https://discord.com/users/847770840266833961) , [ISHAN](https://discord.com/users/847770840266833961)" }
       ])
       /*.setDescription(`**Hi, I am ${client.user.username}!\nMy work is to provide you quality music!\n\nPlay the music directly by ${prefix}play <song>!**`)
       .addFields([
