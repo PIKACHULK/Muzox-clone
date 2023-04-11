@@ -40,7 +40,7 @@ description: "Gives My All command info",
 
       const embed = new EmbedBuilder()
         .setAuthor({name:"Muzox Commands", iconURL: client.user.displayAvatarURL()})
-        .setDescription(`• My Prefix For This Server is ${prefix}\n❗ Alert From Developers`)
+        .setDescription(`• My Prefix For This Server is ${prefix}`)
         .addFields(categories)
 
         .setFooter({text: `Type ${prefix}help <command name> for more information  on a command!`})
