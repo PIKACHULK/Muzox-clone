@@ -19,7 +19,7 @@ await client.db.connect();
 
  
 client.user.setPresence({
-  activities: [{ name: `hi im back!`, type: ActivityType.Listening}],
+  activities: [{ name: `high quality music`, type: ActivityType.Competing}],
   status: 'online',
 })
     
