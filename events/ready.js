@@ -19,7 +19,7 @@ await client.db.connect();
 
  
 client.user.setPresence({
-  activities: [{ name: `discord.js v14`, type: ActivityType.Watching }],
+  activities: [{ name: `hi im back!`, type: ActivityType.Listening}],
   status: 'dnd',
 })
     
