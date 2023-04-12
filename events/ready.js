@@ -17,12 +17,9 @@ await client.db.connect();
   
 
  
-    setInterval(() => {
-      const statuses = [
-        "hi"
-      ];
-      const status = statuses[Math.floor(Math.random() * statuses.length)];
-      client.user.setActivity(status, { type: "LISTENING" });
-    }, 60000);
+client.user.setPresence({
+  activities: [{ name: `discord.js v14`, type: ActivityType.Watching }],
+  status: 'dnd',
+})
     
 }
