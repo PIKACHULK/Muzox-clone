@@ -32,7 +32,7 @@ let tr = track.info.title;
  
   // const row = new ActionRowBuilder().addComponents(previous, rewind,pause,forward,skip);
   // const row1 = new ActionRowBuilder().addComponents(loop,shuffle,queue,stop);
-  // const channel =  client.channels.cache.get(player.textChannel)
+   const channel =  client.channels.cache.get(player.textChannel)
 return channel?.send({ embeds: [embed], components: [row, row1] }).then(x => player.message = x)
 
 }
